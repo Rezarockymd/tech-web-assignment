@@ -35,7 +35,7 @@
                                     <a class="nav-link" href="#course">Courses</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Deals</a>
+                                    <a class="nav-link" href="#deal">Deals</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#institute">Success</a>
@@ -50,7 +50,7 @@
                         </div>
                         <div>
                             <form class="container-fluid ">
-                                <button class="btn btn-outline-success me-2 text-primary"
+                                <button class="btn btn-outline-success me-2 text-primary" data-bs-toggle="modal" data-bs-target="#mymodal"
                                     type="button">Registrar</button>
                             </form>
                         </div>
@@ -205,7 +205,7 @@
                 <button type="button" class="btn btn-primary ">View More Courses</button>
             </div>
         </section>
-        <section class="container my-5" id="institute">
+        <section class="container my-5" id="deal">
             <!-- explore Learning sec start  -->
            
             <div class="row align-items-center border border-warning">
@@ -251,11 +251,28 @@
                 <div class="row ">
                     <div class="w-fluid text-center col-12 col-md-9">
                         <h1>Ready to join?</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolor temporibus cumque?
-                            Error, sapiente odit.</p>
+                        <p>digital learning is the digitalisation of the entire learning experience: social learning, virtual meetings with professionals, online exams, networking with alumni, professionalization workshops, etc.</p>
                     </div>
                     <div class="w-fluid text-center col-12 col-md-3 d-flex justify-content-center align-items-center">
-                        <button type="button" class="btn btn-light text text-primary">Get Started</button>
+                        <button class="btn btn-light text text-primary" data-bs-toggle="modal" data-bs-target="#mymodal">Click Here</button>
+                    </div>
+                   
+                    <div class="modal" id="mymodal">
+                        <div class="modal-dialog">
+                            <div class="modal-content d-flex">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Registration</h4>
+                                    <div class="modal-content">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus sit optio cupiditate.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-info">Close</button>
+                                        <button class="btn btn-info">Send</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -263,13 +280,12 @@
 
         </section>
         <!-- join form End  -->
-        <section class="container">
+        <section class="container" id="institute">
             <!-- student feedback start  -->
             <div>
                 <div class="text-center">
-                    <h1>Some Students feedback</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ut animi deleniti quos in esse
-                        minima illum voluptatem quis autem?</p>
+                    <h1 class="fw-bold">Students feedback</h1>
+                    <p>Students are main factor. Here is some review of our Course.</p>
 
                 </div>
                 <div class="container ">
@@ -288,13 +304,15 @@
                                     <i class="fa-solid fa-star-half-stroke"></i>
                                 </div>
                                 
-                                <p class=""><a class="page-link" href="#" aria-label="Previous">
+                                <p class=""><span class="text-start fw-bold h3" >
+                                    <a class="page-link " href="#" aria-label="Previous">
                                     
                                         <span aria-hidden="true">&laquo;</span>
                                         <span class="sr-only">Previous</span>
-                                    </a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa eos obcaecati
-                                    rerum quae consectetur accusamus modi, aut dolor sed, tempore et est mollitia.
-                                    Itaque magnam modi minus obcaecati praesentium nisi.</p>
+                                </span>
+                                    </a>“Hi D-platfrom, it was great jurney here. Best learning site for any ages. Thanks for your help!”</p>
+                                    <p></p>
+                                    <p class="small text-end fst-italic">By Md. Reza</p>
 
 
                             </div>
@@ -309,13 +327,14 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star-half-stroke"></i>
                                 </div>
-                                <p class=""> <span class="text-end"><a class="page-link" href="#"
+                                <p class=""> <span class="text-end fw-bold h3"><a class="page-link" href="#"
                                             aria-label="Next">
                                             <span aria-hidden="true">&raquo;</span>
-                                            <span class="sr-only">Next</span></span>
-                                    </a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa eos obcaecati
-                                    rerum quae consectetur accusamus modi, aut dolor sed, tempore et est mollitia.
-                                    Itaque magnam modi minus obcaecati praesentium nisi.</p>
+                                            <span class="sr-only ">Next</span></span>
+                                    </a>
+                                    "Probably the best Place to learn. I did my two courses here. They are best in all."</p>
+                                    <p></p>
+                                    <p class="small text-end fst-italic">By Md. Hasan</p>
 
                             </div>
 
@@ -330,9 +349,8 @@
             <!-- Frequent Ask Question added  -->
             <div>
                 <div class="text-center">
-                    <h1>Some Students feedback</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ut animi deleniti quos in esse
-                        minima illum voluptatem quis autem?</p>
+                    <h1 class="fw-bold">Do You Know!!!</h1>
+                    <p>We have some core message for you. With this messageyou may know the new things about CSS frame work. Also about flexbox and grid. Lets explore it in the below Question.</p>
 
                 </div>
             </div>
